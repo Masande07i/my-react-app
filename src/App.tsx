@@ -10,11 +10,18 @@ function App() {
 
   return (
     <div className="app">
-      {/* <div id ='scrollable'></div> */}
+
+      <div className= "backgroundLetters">
+        <span>H</span>
+        <span>Y</span>
+        <span>K</span>
+        <span>R</span>
+        <span>O</span>
+        <span>X</span>
+      </div>
+      
     <Navbar/>
     <Search/>
-
-
      
     <Footer/>
 
