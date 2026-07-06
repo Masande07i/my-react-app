@@ -1,8 +1,15 @@
 .app {
-  width: 100%;
-  min-height: 100vh;
+   width: 100vw; 
+   height: 100vh;
   background-image: url("./assets/background.png");
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
+  /* background-color: rgb(10, 51, 1); */
+  background-attachment: fixed;
+  /* border: 5px solid red; */
+}
+
+.body{
+
 }

@@ -12,24 +12,29 @@ nav{
     justify-content: space-between;
 
 }
+.links{
+    display: flex;
+    align-items: center;
+    gap : 10px;
+}
 .link{
   text-decoration: none;
-    color: white;
+    color: rgb(14, 248, 209);
     padding:5px  10px;
     cursor: pointer;
+  
 
 }
 
-/* .hykrox-text {
-  color: #26845e;
-  opacity: 0.2;
-} */
-/* 
-.container{
-  min-height: 100vh;
-  background-image: url("./assets/background.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow: hidden;
-} */
+.link:hover{
+   color: rgb(220,220,220);
+}
+
+.search-icon{
+    height: 30px;
+    width: 30px;
+    padding: 0 10px;
+    cursor: pointer;
+    background-color: rgb(15, 202, 187);
+    color: rgba(207, 7, 247, 0.164);
+}
