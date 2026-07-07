@@ -24,7 +24,7 @@ function App() {
       
     <Navbar/>
     <Hero/>
-    <Service/>
+    {/* <Service/> */}
    
   
     {/* <Footer/> */}
