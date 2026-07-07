@@ -4,6 +4,8 @@ import './App.css'
 import { Navbar } from './components/Navbar/Navbar.tsx'
 import { Footer } from './components/Footer/Footer.tsx'
 import { Search } from './components/Search/Search.tsx'
+import { Hero } from './components/Hero/Hero.tsx'
+import { Service } from './components/Service/Service.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,9 +23,11 @@ function App() {
       </div>
       
     <Navbar/>
-    <Search/>
-     
-    <Footer/>
+    <Hero/>
+    <Service/>
+   
+  
+    {/* <Footer/> */}
 
     </div>
      

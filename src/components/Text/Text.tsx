@@ -4,6 +4,8 @@ type Props ={
     variant?: string, // used to update later
     children: React.ReactNode,
     style?: React.CSSProperties
+    className ?: string
+    
 }
 
 export const Text:React.FC<Props> = ({ variant, children , style}) => {

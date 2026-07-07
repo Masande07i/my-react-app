@@ -12,10 +12,7 @@ export const Footer = () => {
      
     <footer>
       <div className={styles.footerItem}>
-  <img
-    src={projectIcon}
-    alt="Project"
-    className={styles.footerIcon}
+  <img src={projectIcon} alt="Project" className={styles.footerIcon}
   />
         <div className={styles['variant']}>
         <Text variant = 'h3'> PROJECT</Text>

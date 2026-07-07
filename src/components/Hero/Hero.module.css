@@ -1,0 +1,31 @@
+.hero{
+    width:100%;
+    max-width:1300px;
+    margin:120px auto 0;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:80px;
+}
+.left{
+    flex:1;
+}
+
+.right{
+    flex:1;
+    display:flex;
+    justify-content:flex-end;
+}
+
+.highlight{
+    color:#12f7e4;
+}
+
+
+.line{
+    width:115px;
+    height:2px;
+    background:#0ae9c7;
+    margin:30px 0;
+}
+

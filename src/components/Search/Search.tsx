@@ -1,16 +1,15 @@
 import React from 'react'
 import styles from './Search.module.css'
-import { ContentContainer } from '../ContentContainer'
-import { Searchbar } from './Searchbar'
+
+import searchIcon from '../../assets/search.png'
 
 
 
 export const Search = () => {
   return (
-    <div className={styles['search-container']}>
-        <ContentContainer className={styles['searchbar-container']}>
-            <Searchbar/>
-        </ContentContainer>
-</div>
+         <div className={styles['search-icon']}>
+                     <img src={searchIcon} alt='search icon' className={styles['search-icon']} />
+                </div>
+
   )
 }

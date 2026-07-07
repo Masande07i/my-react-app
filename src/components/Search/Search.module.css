@@ -1,8 +1,19 @@
-/* .search-icon{
+
+.search-icon{
     height: 30px;
     width: 30px;
+    filter: brightness(0) saturate(100%)
+            invert(80%) sepia(62%)
+            saturate(689%) hue-rotate(120deg)
+            brightness(100%) contrast(101%);
     padding: 0 10px;
     cursor: pointer;
-    color: rgb(7, 247, 195);
-} */
+    
+}
 
+.search-icon:hover{
+    filter: brightness(0) saturate(100%)
+            invert(100%) sepia(0%)
+            saturate(0%) hue-rotate(93deg)
+            brightness(103%) contrast(103%);
+}

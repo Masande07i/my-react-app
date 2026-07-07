@@ -32,16 +32,3 @@ nav{
    color: rgb(220,220,220);
 }
 
-.search-icon{
-    height: 30px;
-    width: 30px;
-     filter: brightness(0) saturate(100%)
-            invert(80%) sepia(62%)
-            saturate(689%) hue-rotate(120deg)
-            brightness(100%) contrast(101%);
-    padding: 0 10px;
-    
-    cursor: pointer;
-    /* background-color: rgb(15, 202, 187); */
-    color: rgba(207, 7, 247, 0.164);
-}
